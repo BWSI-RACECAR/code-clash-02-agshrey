@@ -52,7 +52,6 @@ def main():
     array = input().split(" ")
     for x in range (0, len(array)):
         array[x] = int(array[x])
-    print(array)
     target = int(input())
 
     tc1 = Solution()
