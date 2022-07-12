@@ -34,14 +34,13 @@ class Solution:
         # return type: list or bool
 
        # TODO: Write code below to return a list with the solution to the prompt
-       a = []
-       for i in range(len(ary)):
-        for j in range(i, len(ary)):
-            if ary[i] + ary[j] == target:
-                a.append(i)
-                a.append(j)
-                break
-
+        a = []
+        for i in range(len(ary)):
+            for j in range(i, len(ary)):
+                if ary[i] + ary[j] == target:
+                    a.append(i)
+                    a.append(j)
+                    break
         if len(a) > 0:
             return a
         else:
