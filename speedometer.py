@@ -41,6 +41,9 @@ class Solution:
                     a.append(i)
                     a.append(j)
                     break
+            else:
+                continue
+            break
         if len(a) > 0:
             return a
         else:
